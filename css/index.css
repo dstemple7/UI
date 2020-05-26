@@ -198,6 +198,14 @@ body {
     font-size: 1rem;
   }
 }
+#back2top {
+  display: flex;
+  justify-content: center;
+}
+#back2top a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
 .title-container {
   display: flex;
 }
