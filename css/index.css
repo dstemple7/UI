@@ -1,0 +1,295 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 62.5%;
+  font: inherit;
+  vertical-align: baseline;
+}
+*,
+html,
+body {
+  box-sizing: border-box;
+}
+.header {
+  display: inline;
+  justify-items: center;
+}
+.header .nav {
+  margin: 1% 0 0 0;
+}
+.header .nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: 'Varela', sans-serif;
+  margin: 2%;
+  color: black;
+  align-content: center;
+}
+@media (max-width: 500px) {
+  .header .nav a {
+    font-size: 1.3rem;
+  }
+}
+.header .nav a:hover {
+  color: grey;
+}
+.navParent {
+  text-align: center;
+}
+#navbar {
+  overflow: hidden;
+  background-color: white;
+  padding: 1%;
+}
+#navbar a {
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 2%;
+  color: black;
+  align-content: center;
+}
+@media (max-width: 500px) {
+  #navbar a {
+    font-size: 1.3rem;
+  }
+}
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black !important;
+  opacity: 0.85;
+}
+.sticky a {
+  color: white !important;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+.footer {
+  justify-items: center;
+}
+.footer .ul {
+  margin: 0 0 0 0;
+}
+.footer .ul div {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: 'Varela', sans-serif;
+  margin: 2%;
+  color: black;
+  align-content: center;
+}
+@media (max-width: 500px) {
+  .footer .ul div {
+    font-size: 1.3rem;
+  }
+}
+.footer .ul div:hover {
+  color: grey;
+}
+.footerParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: black;
+}
+.footerUL {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+.footerUL div {
+  flex-wrap: none;
+  white-space: nowrap;
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin: 2%;
+  color: white;
+  align-content: center;
+}
+@media (max-width: 500px) {
+  .footerUL div {
+    font-size: 1rem;
+  }
+}
+.title-container {
+  display: flex;
+}
+.title-container .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  width: 70%;
+  margin: 1.5% 15%;
+  background-image: url(/assets/Essentialism.png);
+  background-position: center;
+}
+@media (max-width: 500px) {
+  .title-container .hero {
+    height: 35vh;
+  }
+}
+.title-container .hero button {
+  height: auto;
+  margin: 2%;
+  font-size: 1.5rem;
+  font-family: 'Varela', sans-serif;
+  border-radius: 5%;
+  padding: 1.5%;
+  background-color: white;
+  color: black;
+}
+.title-container .hero button:hover {
+  background-color: black;
+  color: white;
+}
+.title-container .hero h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: black;
+  font-family: 'Varela', sans-serif;
+}
+@media (max-width: 500px) {
+  .title-container .hero h1 {
+    font-size: 2rem;
+  }
+}
+.artists-container {
+  display: flex;
+  justify-content: center;
+  margin: 2% 10%;
+}
+@media (max-width: 500px) {
+  .artists-container {
+    margin: 4% 0;
+    flex-direction: column;
+  }
+}
+.artists-container img {
+  width: 15rem;
+  margin: 2% 30%;
+  border-radius: 3%;
+}
+@media (max-width: 500px) {
+  .artists-container img {
+    width: 90%;
+  }
+}
+.artists-container .bio {
+  width: 38rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+@media (max-width: 500px) {
+  .artists-container .bio {
+    width: 90%;
+    font-size: 1rem;
+  }
+}
+.artists-container div {
+  margin: 0 5%;
+}
+.artists-container .title {
+  text-align: center;
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .artists-container .title {
+    font-size: 1.3rem;
+  }
+}
+.artists-container a {
+  text-decoration: none;
+  color: grey;
+}
+.artists-container a:hover {
+  color: black;
+}
