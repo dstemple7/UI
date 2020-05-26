@@ -218,6 +218,11 @@ body {
   justify-content: center;
   margin: 2% 0% 1% 0%;
 }
+@media (max-width: 500px) {
+  #back2top {
+    margin: 3% 0% 3% 0%;
+  }
+}
 #back2top a {
   text-decoration: none;
   font-size: 1.2rem;
@@ -240,7 +245,9 @@ body {
 }
 @media (max-width: 500px) {
   .title-container .hero {
-    height: 35vh;
+    height: 25vh;
+    width: 70%;
+    background-image: url(/assets/HeroMobile.png);
   }
 }
 .title-container .hero button {
@@ -277,6 +284,7 @@ body {
   .artists-container {
     margin: 4% 0;
     flex-direction: column;
+    align-items: center;
   }
 }
 .artists-container img {
@@ -286,7 +294,8 @@ body {
 }
 @media (max-width: 500px) {
   .artists-container img {
-    width: 90%;
+    width: 10rem;
+    margin: 2% 25%;
   }
 }
 .artists-container .bio {
@@ -318,4 +327,8 @@ body {
 }
 .artists-container a:hover {
   color: black;
+}
+#headshot {
+  display: flex;
+  justify-content: center;
 }
