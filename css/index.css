@@ -147,6 +147,11 @@ body {
 .sticky a {
   color: white !important;
 }
+@media (max-width: 500px) {
+  .sticky {
+    display: none;
+  }
+}
 .sticky + .content {
   padding-top: 60px;
 }
@@ -179,10 +184,20 @@ body {
   text-align: center;
   background-color: black;
 }
+@media (max-width: 500px) {
+  .footerParent {
+    flex-direction: column;
+  }
+}
 .footerUL {
   display: flex;
   flex-direction: row;
   background-color: black;
+}
+@media (max-width: 500px) {
+  .footerUL {
+    flex-direction: column;
+  }
 }
 .footerUL div {
   flex-wrap: none;
@@ -201,10 +216,13 @@ body {
 #back2top {
   display: flex;
   justify-content: center;
+  margin: 2% 0% 1% 0%;
 }
 #back2top a {
   text-decoration: none;
   font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
 }
 .title-container {
   display: flex;
