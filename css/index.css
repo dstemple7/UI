@@ -232,6 +232,10 @@ body {
 .title-container {
   display: flex;
 }
+.title-container #heroBottom {
+  background-image: none;
+  height: 25vh;
+}
 .title-container .hero {
   display: flex;
   flex-direction: column;
@@ -361,4 +365,71 @@ body {
   #artist6 {
     order: 6;
   }
+}
+@media (max-width: 500px) {
+  #artist7 {
+    order: 7;
+  }
+}
+@media (max-width: 500px) {
+  #artist8 {
+    order: 8;
+  }
+}
+@media (max-width: 500px) {
+  #artist9 {
+    order: 10;
+  }
+}
+@media (max-width: 500px) {
+  #artist10 {
+    order: 9;
+  }
+}
+@media (max-width: 500px) {
+  #artist11 {
+    order: 11;
+  }
+}
+@media (max-width: 500px) {
+  #artist12 {
+    order: 12;
+  }
+}
+@media (max-width: 500px) {
+  #artist13 {
+    order: 13;
+  }
+}
+@media (max-width: 500px) {
+  #artist14 {
+    order: 14;
+  }
+}
+@media (max-width: 500px) {
+  #artist15 {
+    order: 16;
+  }
+}
+@media (max-width: 500px) {
+  #artist16 {
+    order: 15;
+  }
+}
+@media (max-width: 500px) {
+  #artist17 {
+    order: 17;
+  }
+}
+@media (max-width: 500px) {
+  #artist18 {
+    order: 18;
+  }
+}
+.buttonA a {
+  text-decoration: none;
+  color: black;
+}
+.buttonA:hover a {
+  color: white;
 }
