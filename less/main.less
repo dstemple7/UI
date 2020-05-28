@@ -14,7 +14,7 @@
         margin:1.5% 15%;
         background-image: url(/assets/Essentialism.png);
         background-position:center;
-        @media (max-width:500px){
+        @media @mobile{
             height:25vh;
             width:70%;
             background-image: url(/assets/HeroMobile.png)
@@ -26,21 +26,21 @@
         font-family:'Varela', sans-serif;
         border-radius:5%;
         padding:1.5%;
-        background-color:white;
-        color:black;
+        background-color:@alt-color;
+        color:@main-color;
 
         
  }
     button:hover{
-        background-color:black;
-        color:white;
+        background-color:@main-color;
+        color:@alt-color;
     }
     h1 {
         text-align:center;
         font-size: 4rem;
-        color:black;
+        color:@main-color;
         font-family:'Varela', sans-serif;
-        @media (max-width:500px){
+        @media @mobile{
             font-size: 2rem;
         }    
     }
@@ -51,7 +51,7 @@
     display:flex;
     justify-content:center;
     margin:2% 10%;
-    @media (max-width:500px){
+    @media @mobile{
         margin:4% 0;
         flex-direction:column;
         align-items:center;
@@ -60,7 +60,7 @@
         width:25rem;
         margin: 2% 5%;
         border-radius:3%;
-        @media (max-width:500px){
+        @media @mobile{
             width:15rem;
             margin: 2%;
         }
@@ -69,7 +69,7 @@
         width:38rem;
         text-align:center;
         font-size: 1.4rem;
-        @media (max-width:500px){
+        @media @mobile{
             width:90%;
             font-size: 1rem;
             
@@ -83,7 +83,7 @@
         text-align:center;
         font-size:2rem;
         
-        @media (max-width:500px){
+        @media @mobile{
             font-size:1.3rem;
         }
     }
@@ -92,7 +92,7 @@
         color:grey;
     }
     a:hover {
-        color:black;
+        color:@main-color;
 
 }
 }
@@ -103,83 +103,83 @@
 }
 
 #artist1{
-    @media (max-width:500px){
+    @media @mobile{
     order:1;
 }}
 #artist2{
-    @media (max-width:500px){
+    @media @mobile{
     order:2;
 }}
 #artist3{
-    @media (max-width:500px){
+    @media @mobile{
         order:4;
 }}
 #artist4{
-    @media (max-width:500px){
+    @media @mobile{
         order:3;
 }}
 #artist5{
-    @media (max-width:500px){
+    @media @mobile{
         order:5;
 }}
 #artist6{
-    @media (max-width:500px){
+    @media @mobile{
         order:6;
 }}
 #artist7{
-    @media (max-width:500px){
+    @media @mobile{
     order:7;
 }}
 #artist8{
-    @media (max-width:500px){
+    @media @mobile{
     order:8;
 }}
 #artist9{
-    @media (max-width:500px){
+    @media @mobile{
         order:10;
 }}
 #artist10{
-    @media (max-width:500px){
+    @media @mobile{
         order:9;
 }}
 #artist11{
-    @media (max-width:500px){
+    @media @mobile{
         order:11;
 }}
 #artist12{
-    @media (max-width:500px){
+    @media @mobile{
         order:12;
 }}
 #artist13{
-    @media (max-width:500px){
+    @media @mobile{
     order:13;
 }}
 #artist14{
-    @media (max-width:500px){
+    @media @mobile{
     order:14;
 }}
 #artist15{
-    @media (max-width:500px){
+    @media @mobile{
         order:16;
 }}
 #artist16{
-    @media (max-width:500px){
+    @media @mobile{
         order:15;
 }}
 #artist17{
-    @media (max-width:500px){
+    @media @mobile{
         order:17;
 }}
 #artist18{
-    @media (max-width:500px){
+    @media @mobile{
         order:18;
 }}
 
 .buttonA a{
     text-decoration:none;
-    color:black;
+    color:@main-color;
 }
 
 .buttonA:hover a{
-    color:white;
+    color:@alt-color;
 }
