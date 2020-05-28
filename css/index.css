@@ -288,14 +288,14 @@ body {
   }
 }
 .artists-container img {
-  width: 15rem;
-  margin: 2% 30%;
+  width: 25rem;
+  margin: 2% 5%;
   border-radius: 3%;
 }
 @media (max-width: 500px) {
   .artists-container img {
-    width: 10rem;
-    margin: 2% 25%;
+    width: 15rem;
+    margin: 2%;
   }
 }
 .artists-container .bio {
@@ -331,4 +331,34 @@ body {
 #headshot {
   display: flex;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  #artist1 {
+    order: 1;
+  }
+}
+@media (max-width: 500px) {
+  #artist2 {
+    order: 2;
+  }
+}
+@media (max-width: 500px) {
+  #artist3 {
+    order: 4;
+  }
+}
+@media (max-width: 500px) {
+  #artist4 {
+    order: 3;
+  }
+}
+@media (max-width: 500px) {
+  #artist5 {
+    order: 5;
+  }
+}
+@media (max-width: 500px) {
+  #artist6 {
+    order: 6;
+  }
 }
