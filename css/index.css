@@ -106,7 +106,7 @@ body {
   color: #0e1111;
   align-content: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .header .nav a {
     font-size: 1.3rem;
   }
@@ -129,7 +129,7 @@ body {
   color: #0e1111;
   align-content: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #navbar a {
     font-size: 1.3rem;
   }
@@ -147,13 +147,18 @@ body {
 .sticky a {
   color: #FFFAFA !important;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .sticky {
     display: none;
   }
 }
 .sticky + .content {
   padding-top: 60px;
+}
+@media (max-width: 800px) {
+  .sticky + .content {
+    display: none;
+  }
 }
 .footer {
   justify-items: center;
@@ -169,7 +174,7 @@ body {
   color: #0e1111;
   align-content: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .footer .ul div {
     font-size: 1.3rem;
   }
@@ -184,7 +189,7 @@ body {
   text-align: center;
   background-color: #0e1111;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .footerParent {
     flex-direction: column;
   }
@@ -194,7 +199,7 @@ body {
   flex-direction: row;
   background-color: #0e1111;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .footerUL {
     flex-direction: column;
   }
@@ -208,7 +213,7 @@ body {
   color: #FFFAFA;
   align-content: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .footerUL div {
     font-size: 1rem;
   }
@@ -218,7 +223,7 @@ body {
   justify-content: center;
   margin: 2% 0% 1% 0%;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #back2top {
     margin: 3% 0% 3% 0%;
   }
@@ -247,11 +252,12 @@ body {
   background-image: url(/assets/Essentialism.png);
   background-position: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .title-container .hero {
     height: 25vh;
     width: 70%;
     background-image: url(/assets/HeroMobile.png);
+    background-repeat: no-repeat;
   }
 }
 .title-container .hero button {
@@ -280,7 +286,7 @@ body {
   color: #0e1111;
   font-family: 'Varela', sans-serif;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .title-container .hero h1 {
     font-size: 2rem;
   }
@@ -290,7 +296,7 @@ body {
   justify-content: center;
   margin: 2% 10%;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .artists-container {
     margin: 4% 0;
     flex-direction: column;
@@ -302,7 +308,7 @@ body {
   margin: 2% 5%;
   border-radius: 3%;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .artists-container img {
     width: 15rem;
     margin: 2%;
@@ -313,7 +319,7 @@ body {
   text-align: center;
   font-size: 1.4rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .artists-container .bio {
     width: 90%;
     font-size: 1rem;
@@ -326,7 +332,7 @@ body {
   text-align: center;
   font-size: 2rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .artists-container .title {
     font-size: 1.3rem;
   }
@@ -342,92 +348,92 @@ body {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist1 {
     order: 1;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist2 {
     order: 2;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist3 {
     order: 4;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist4 {
     order: 3;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist5 {
     order: 5;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist6 {
     order: 6;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist7 {
     order: 7;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist8 {
     order: 8;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist9 {
     order: 10;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist10 {
     order: 9;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist11 {
     order: 11;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist12 {
     order: 12;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist13 {
     order: 13;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist14 {
     order: 14;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist15 {
     order: 16;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist16 {
     order: 15;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist17 {
     order: 17;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #artist18 {
     order: 18;
   }
